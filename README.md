@@ -1,33 +1,25 @@
-# Face_Recognition_Tracking_Attendance
-A python GUI integrated attendance system using face recognition to tracking attendance.
+This Python project is a user-friendly attendance system that utilizes face recognition to track attendance. It features a Graphical User Interface (GUI) built with tkinter to make it easily accessible to users. The technology stack includes OpenCV for capturing images and performing face recognition, along with various modules such as CSV, Numpy, Pandas, datetime, and others for additional functionalities.
 
-In this python project, I have made an attendance system which track attendance by using face recognition technique. I have also intergrated it with GUI (Graphical user interface) so it can be easy to use by anyone. GUI for this project is also made on python using tkinter.
+To run the project, you need to install the required modules using the following commands in the command prompt or terminal:
+1. `pip install tk-tools`
+2. `pip install opencv-contrib-python`
+3. `pip install datetime`
+4. `pip install pytest-shutil`
+5. `pip install python-csv`
+6. `pip install numpy`
+7. `pip install pillow`
+8. `pip install pandas`
+9. `pip install times`
 
-TECHNOLOGY USED:
-1) tkinter for whole GUI
-2) OpenCV for taking images and face recognition (cv2.face.LBPHFaceRecognizer_create())
-3) CSV, Numpy, Pandas, datetime etc. for other purposes.
-4) for installing modules we have to install all modules using command prompt
-     4.1) pip install tk-tools
-     4.2) pip install opencv-contrib-python
-     4.3) pip install datetime
-     4.4) pip install pytest-shutil
-     4.5) pip install python-csv
-     4.6) pip install numpy
-     4.7) pip install pillow 
-     4.8) pip install pandas
-     4.9) pip install times
+A password is set for the registration process, which ensures security and restricts unauthorized access to the system. The password for registration is "prabhakar jha".
 
-we  set the password for registration
-password="prabhakar jha"
+To mark attendance for a student, you need to press the 'p' key.
 
-FOR MARKING THE ATTENDANCE WE HAVE TO CLICK ON KEY 'p'
+Key Features of the project include:
+1. Interactive GUI for ease of use.
+2. Password protection during new person registration.
+3. Maintaining CSV files to store student details upon registration.
+4. Daily creation of a new CSV file for attendance, with proper date and time entries.
+5. Displaying live attendance updates for the day in tabular format on the main screen, showing student ID, name, date, and time.
 
-
-I used python 3.8 version for building our project and I always run my program in pycharm.
-FEATURES:
-1) Easy to use with interactive GUI support.
-2) Password protection for new person registration.
-3) Creates/Updates CSV file for details of students on registration.
-4) Creates a new CSV file everyday for attendance and marks attendance with proper date and time.
-5) Displays live attendance updates for the day on the main screen in tabular format with Id, name, date and time.
+The project was developed using Python version 3.8 and tested in the PyCharm IDE. It provides an efficient solution for tracking attendance using face recognition technology.
